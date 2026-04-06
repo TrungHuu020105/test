@@ -175,8 +175,8 @@ async def main():
     parser.add_argument(
         "--server",
         type=str,
-        default="ws://192.168.137.1:8000",
-        help="WebSocket server URL (default: ws://192.168.137.1:8000)"
+        default="ws://172.16.49.15:8000/api",
+        help="WebSocket server URL (default: ws://172.16.49.15:8000/api)"
     )
     
     parser.add_argument(
